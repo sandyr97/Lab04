@@ -5,7 +5,11 @@ function myReset()
   document.getElementById("n_num").value="0";
   document.getElementById("d_num").value="0";
   document.getElementById("s_num").value="0";
-  document.getElementById("r1").checked();
+  if (document.getElementById("r1").checked ==false)
+  {
+    document.getElementById("r1").checked = true;
+  }
+
 
 }
 function validateForm() {
