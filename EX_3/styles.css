@@ -1,0 +1,42 @@
+table {
+  border: 1px solid black;
+  background-color: beige;
+}
+th{
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+td{
+  background-color: plum;
+}
+tr{
+  background-color: lightgreen;
+}
+
+body {
+  background-color: pink;
+  background-image: url(background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+h1 {
+  color: black;
+  font-family: georgia;
+  font-size: 43pt;
+  text-align: center;
+}
+h1 {
+  color: black;
+  font-family: georgia;
+  font-size: 20pt;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300;
+  height: 300;
+}

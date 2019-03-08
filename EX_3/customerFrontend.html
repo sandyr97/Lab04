@@ -1,0 +1,47 @@
+
+<html>
+	<head>
+<link rel="stylesheet" href="styles.css">
+<title>Web Store</title>
+<script type="text/javascript"
+						 src="formChecker.js">
+		 </script>
+	</head>
+	<body>
+		<h1> Welcome to the Web Store Boutique! </h1>
+		<image class="center" src=boutique.jpg>
+		<form action="customerBackend.php" method="post" name="myForm" onsubmit="return validateForm()">
+		Enter Username: <input type="email"  name="u_name" id="username">
+		 <br>
+		Enter Password: <input type="password"  name="u_pass" id="password">
+		<br>
+		<br>
+		<h2>Items:</h2>
+
+		Necklace($25.00):<br>
+		<image src=necklace.jpg width="250" height="250">
+		<br>
+		<input type="number" name="necklace" id="n_num">
+		<br>
+		<br>
+		Dress($30.00): <br>
+		<image src=dress.jpg width="250" height="250">
+		<br>
+		<input type="number" name="dress" id="d_num">
+		<br>
+		Shirt($15.00): <br>
+		<image src=shirt.jpg width="250" height="250">
+		<br>
+		<input type="number" name="shirt" id="s_num">
+		<br>
+		<br>
+		Shipping:<br>
+		<input type="radio" name="myRadio1" value="1" id="r1" checked> Free 7 day<br>
+		<input type="radio" name="myRadio1" value="2"> $50.00 over night<br>
+		<input type="radio" name="myRadio1" value="3"> $5.00 three day<br>
+		<input type="submit" value="Submit">
+
+		</form>
+		<button type="button" onclick="myReset()">Reset </button>
+	</body>
+</html>
